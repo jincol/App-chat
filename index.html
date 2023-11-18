@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="Chat App Ilustration" />
+    <link rel="preload" href="./style/normalize.css" as="style" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="preload" href="./style/style.css" as="style" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      as="font"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <div class="mobile">
+        <div class="mobile-barra">
+          <div class="mobile-barra__camera"></div>
+          <div class="mobile-barra__contact">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-arrow-badge-left"
+              width="100"
+              height="auto"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+            </svg>
+            <div class="details-name">
+              <img
+                class="details-name__img"
+                src="./images/avatar.jpg"
+                alt="perfil"
+              />
+              <div class="name">
+                <h1>Samuel Green</h1>
+                <p>Available to Walk</p>
+              </div>
+            </div>
+            <p class="puntos-verticales">⋮</p>
+          </div>
+        </div>
+        <div class="mobile-content">
+          <div class="chat-fila-uno">
+            <p class="chat-txt">That sounds great. I’d be happy with that.</p>
+            <p class="chat-txt">
+              Could you send over some pictures of your dog, please?.
+            </p>
+          </div>
+          <div class="chat-fila-dwo">
+            <div class="mobile-content__chat-images">
+              <img
+                class="chat-images-img"
+                src="./images/dog-image-1.jpg"
+                alt="Dog 1"
+              />
+              <img
+                class="chat-images-img"
+                src="./images/dog-image-2.jpg"
+                alt="Dog 2"
+              />
+              <img
+                class="chat-images-img"
+                src="./images/dog-image-3.jpg"
+                alt="Dog 3"
+              />
+            </div>
+            <p class="chat-txt chat-text--dwo">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="chat-txt chat-text--dwo">Can you make it?</p>
+          </div>
+          <div class="chat-fila-uno">
+            <p class="chat-txt">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+          <div class="chat-txt chat-degradado">
+            <div class="content__chat">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-exclamation-circle"
+                width="100"
+                height="auto"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M12 9v4" />
+                <path d="M12 16v.01" />
+              </svg>
+              <p>30 minute walk</p>
+            </div>
+            <h2>$29</h2>
+          </div>
+          <div class="chat-txt chat-degradado">
+            <div class="content__chat">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-exclamation-circle"
+                width="100"
+                height="auto"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M12 9v4" />
+                <path d="M12 16v.01" />
+              </svg>
+              <p>1 hour walk</p>
+            </div>
+            <h2>$49</h2>
+          </div>
+          <div class="content__busqueda">
+            <input class="input" type="text" placeholder="Type a message…">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right-filled" width="100" height="auto" viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M12 2l.324 .005a10 10 0 1 1 -.648 0l.324 -.005zm.613 5.21a1 1 0 0 0 -1.32 1.497l2.291 2.293h-5.584l-.117 .007a1 1 0 0 0 .117 1.993h5.584l-2.291 2.293l-.083 .094a1 1 0 0 0 1.497 1.32l4 -4l.073 -.082l.064 -.089l.062 -.113l.044 -.11l.03 -.112l.017 -.126l.003 -.075l-.007 -.118l-.029 -.148l-.035 -.105l-.054 -.113l-.071 -.111a1.008 1.008 0 0 0 -.097 -.112l-4 -4z" stroke-width="0" fill="currentColor" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="content-mesagge">
+        <h2 class="content-mesagge__title"> Simple booking</h2>
+        <p class="content-mesagge__paragraph">Stay in touch with our dog
+          walkers through the chat interface. This makes it easy to discuss
+          arrangements and make bookings. Once the walk has been completed you can
+          rate your walker and book again all through the chat.</p>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jincol">Jin Colchado</a>.
+    </div>
+  </body>
+</html>
