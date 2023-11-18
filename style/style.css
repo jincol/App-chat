@@ -76,7 +76,7 @@ body {
   top: 0;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 480px) {
     .contenedor::before {
       content: " ";
       width: 70%;
